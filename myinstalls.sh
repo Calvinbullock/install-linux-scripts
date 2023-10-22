@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# update mirrirs and system
+sudo apt update && sudo apt upgrade -y
+
 ######## Basic package installs 
 # sudo apt install flatpak
 # sudo flatpak install krita
