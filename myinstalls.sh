@@ -3,19 +3,22 @@
 # update mirrirs and system
 sudo apt update && sudo apt upgrade -y
 
-######## Basic package installs 
+# ####### Basic package installs 
 # sudo apt install flatpak
-# sudo flatpak install krita
+sudo flatpak install org.kde.krita
+sudo flatpak unstall com.github.tchx84.Flatseal
 sudo flatpak install com.discordapp.Discord
-sudo apt install htop
+sudo flatpak install io.gitlab.theevilskeleton.Upscaler
+
 sudo snap install btop
-sudo apt install upscaler
+
+sudo apt install htop
 sudo apt install neovim
 
 
 ######## Appended alies to .bashrc #########
 # Update alias
-echo "# Custom update alias_updater" >> .bashrc
+echo "# Custom update alias_updater\n" >> .bashrc
 echo "alias upd=\"sudo apt update && sudo apt upgrade && flatpak update\n\"" >> .bashrc
 echo "" >> .bashrc
 echo "\n" >> .bashrc
