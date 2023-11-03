@@ -6,6 +6,7 @@ sudo apt update && sudo apt upgrade -y
 ######## Basic package installs 
 # sudo apt install flatpak
 # sudo flatpak install krita
+sudo flatpak install com.discordapp.Discord
 sudo apt install htop
 sudo snap install btop
 sudo apt install upscaler
