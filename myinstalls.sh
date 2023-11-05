@@ -1,7 +1,6 @@
 #!/bin/bash
 
-#bashrc="~/.bashrc"
-bashrc="~/Desktop/bashrk"
+bashrc="~/.bashrc"
 
 # update mirrirs and system
 sudo apt update && sudo apt upgrade -y
