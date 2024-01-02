@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# variable declaration
 bashrc="~/.bashrc"
 
 # update mirrirs and system
@@ -30,7 +31,7 @@ echo "" >> $bashrc
 echo "" >> $bashrc
 
 # install temps package and alies my most used command from it
-echo "# Custom tempature sensors\" >> $bashrc
+echo "# Custom tempature sensors" >> $bashrc
 echo "alias temps=\"watch sensors\"" >> $bashrc
 
 # Vim config alias
