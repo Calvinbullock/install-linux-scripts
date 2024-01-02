@@ -36,9 +36,6 @@ echo "alias temps=\"watch sensors\"" >> $bashrc
 
 # Vim config alias
 echo "" >> $bashrc
-echo "alias vimc=\"vim ~/.vim/vimrc\"" >> $bashrc
-echo "alias gvimc=\"cd ~/.vim/\"" >> $bashrc
-echo "alias nimc=\"vim ~/.config/nvim\"" >> $bashrc
-echo "alias gnimc=\"cd ~/.config/nvim\"" >> $bashrc
-echo "alias nimc=\"vim ~/.config/nvim\"" >> $bashrc
+echo "alias vimcon=\"cd ~/.vim/\"" >> $bashrc
+echo "alias nimcon=\"cd ~/.config/nvim\"" >> $bashrc
 
