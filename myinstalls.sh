@@ -25,9 +25,9 @@ sudo apt install lm-sensors
 
 ######## Appended alies to $bashrc #########
 # Update alias
-echo "# Custom update alias_updater" >> $bashrc
-echo "alias upd=\"sudo apt update && sudo apt upgrade && flatpak update\"" >> $bashrc
 echo "" >> $bashrc
+echo "# Update alias" >> $bashrc
+echo "alias upd=\"sudo apt update && sudo apt upgrade && flatpak update\"" >> $bashrc
 echo "" >> $bashrc
 
 # install temps package and alies my most used command from it
